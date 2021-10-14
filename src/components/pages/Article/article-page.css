@@ -1,0 +1,14 @@
+ul {
+	padding: 0;
+	list-style: none;
+}
+
+.page {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #F7FAFB;
+}
+
+.page__section {
+	display: flex;
+	gap: 20px;
+}

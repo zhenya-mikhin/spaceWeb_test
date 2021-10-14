@@ -1,0 +1,32 @@
+.user-navigation__list {
+	display: flex;
+	justify-content: end;
+	align-items: center;
+	gap: 30px;
+	padding: 0;
+	list-style: none;
+}
+
+.cabinet__icon {
+	position: relative;
+	margin-right: 11px;
+	bottom: -3px;
+}
+.cabinet__icon::after {
+	content: '1';
+	position: absolute;
+	width: 12;
+	height: 12;
+	border-radius: 50%;
+	background-color: #D0021B;
+}
+
+.user-navigation__link {
+	text-decoration: none;
+
+	font-weight: 300;
+	font-style: normal;
+	font-size: 12px;
+	line-height: 15px;
+	color: #7A8185;
+}

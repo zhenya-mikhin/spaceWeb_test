@@ -1,0 +1,21 @@
+.footer {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 20px;
+	margin-top: 20px;
+
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+.copyright__row, .contacts__row {
+	display: block;
+	margin: 0;
+	margin-bottom: 2px;
+}
+
+.copyright__link, .contacts__link {
+	margin-right: 2px;
+	color: #3DBDF6;
+}

@@ -1,0 +1,48 @@
+.sidebar {
+	background-color: #062436;
+	width: 221px;
+	min-height: 625px;
+}
+
+.sidebar__list {
+	margin-top: 109px;
+}
+
+.sidebar__item {
+	position: relative;
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+	height: 40px;
+
+	cursor: pointer;
+}
+
+.sidebar__icon {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.sidebar__link {
+	padding: 0;
+	color: #fff;
+	text-transform: uppercase;
+
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+}
+
+.active-tab {
+	display: flex;
+	background-color: #15526A;
+}
+.active-tab::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 6px;
+	height: 40px;
+	background-color: #3DBDF6;
+}
